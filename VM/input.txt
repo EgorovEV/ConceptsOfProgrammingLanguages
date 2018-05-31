@@ -1,0 +1,11 @@
+putstr input n:
+get a
+init b 1
+init c 1
+save d b
+add b c
+pr b
+save c d
+dec a
+goto a 4
+exit
